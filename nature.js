@@ -29,6 +29,7 @@ var natureJson = [
     "_id" : ObjectId("5bb277235a637e3333d9a9bf"),
     "code" : "PAGTRANSPFRETE",
     "name" : "Pagamento de transporte ou frete",
+    "iof" : 0.0038,
     "subNatureCodes" : [
         "TRANSPAEREO",
         "TRANSPMARIT",
@@ -40,6 +41,7 @@ var natureJson = [
     "_id" : ObjectId("5bb27a585a637e3333d9aa5a"),
     "code" : "PAGSEGRESSEG",
     "name" : "Pagamento de seguro ou resseguro",
+    "iof" : 0.0038,
     "subNatureCodes" : [
         "SEGFRETTRANSPEXPORT",
         "SEGFRETTRANSPIMPORT",
@@ -69,6 +71,7 @@ var natureJson = [
     "_id" : ObjectId("5bb377a35a637e3333d9d1c2"),
     "code" : "RECREFTRANSFRET",
     "name" : "Recebimento referente a transporte ou frete",
+    "iof" : 0.0038,
     "subNatureCodes" : [
         "TETRANSPAEREO",
         "TETRANSPMAR",
@@ -252,6 +255,7 @@ var natureJson = [
     "_id" : ObjectId("5bb283935a637e3333d9abed"),
     "code" : "MOVCAPITBREXT",
     "name" : "Movimentações de capitais brasileiros no exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -281,6 +285,7 @@ var natureJson = [
     "_id" : ObjectId("5bb379bb5a637e3333d9d3e2"),
     "code" : "TERECREFSEGRESS",
     "name" : "Recebimento referente a seguro ou resseguro",
+    "iof" : 0.0038,
     "subNatureCodes" : [
         "TESEFRETRANEXP",
         "TESEFRETRANSIMP",
@@ -308,6 +313,7 @@ var natureJson = [
     "_id" : ObjectId("5b9045c33c5eb200ae22315b"),
     "code" : "TRANSFUNI",
     "name" : "Transferências Unilaterais",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -321,6 +327,7 @@ var natureJson = [
     "_id" : ObjectId("5bb283935a637e3333d9abe9"),
     "code" : "PAGAMENTOSERVDIVER",
     "name" : "Pagamento de serviços diversos",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -334,6 +341,7 @@ var natureJson = [
     "_id" : ObjectId("5bb283935a637e3333d9abeb"),
     "code" : "RENDASCAPITAIS",
     "name" : "Rendas de capitais",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -347,6 +355,7 @@ var natureJson = [
     "_id" : ObjectId("5b9045c33c5eb200ae223157"),
     "code" : "PAGVIAGINT",
     "name" : "Pagamento de viagem internacional",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -360,6 +369,7 @@ var natureJson = [
     "_id" : ObjectId("5bb283935a637e3333d9abef"),
     "code" : "ENVCAPBRTOEXT",
     "name" : "Envio de capital/ganho brasileiro para o exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -414,6 +424,7 @@ var natureJson = [
     "_id" : ObjectId("5bb37b565a637e3333d9d561"),
     "code" : "TETRANSUNIL",
     "name" : "Transferência unilateral",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -427,6 +438,7 @@ var natureJson = [
     "_id" : ObjectId("5bb37b565a637e3333d9d563"),
     "code" : "TESERVDIVER",
     "name" : "Serviços diversos",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -453,6 +465,7 @@ var natureJson = [
     "_id" : ObjectId("5bb37b565a637e3333d9d55d"),
     "code" : "TERECEBREFVAIGINT",
     "name" : "Recebimento referente a viagem internacional",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -479,6 +492,7 @@ var natureJson = [
     "_id" : ObjectId("5bb37b565a637e3333d9d565"),
     "code" : "TERENCAPI",
     "name" : "Rendas de capitais",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -492,6 +506,7 @@ var natureJson = [
     "_id" : ObjectId("5bb37b565a637e3333d9d567"),
     "code" : "TERETCAPBREXT",
     "name" : "Retorno de capital/ganho de brasileiro do exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -505,6 +520,7 @@ var natureJson = [
     "_id" : ObjectId("5bb37b565a637e3333d9d569"),
     "code" : "TEMOVCAPESTRBRA",
     "name" : "Movimentações de capitais estrangeiros no Brasil",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -518,6 +534,7 @@ var natureJson = [
     "_id" : ObjectId("60bf51f3f94a7c2a5eb4affc"),
     "code" : "DIRAUTCESUSOPROGCOMPUT",
     "name" : "Direitos autorais - Cessão ou uso de programas de computador",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -531,6 +548,7 @@ var natureJson = [
     "_id" : ObjectId("60e85b4b4ac74e0ae3bd68d2"),
     "code" : "DEMINHATITUNOEXT",
     "name" : "De minha titularidade no exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -544,6 +562,7 @@ var natureJson = [
     "_id" : ObjectId("60e860a84ac74e0ae3bd68d8"),
     "code" : "DEDIVIDEXT",
     "name" : "De dividendos do exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -561,6 +580,7 @@ var natureJson = [
     "_id" : ObjectId("60e860da4ac74e0ae3bd68d9"),
     "code" : "DEUMAPF",
     "name" : "De uma pessoa física",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -575,6 +595,7 @@ var natureJson = [
     "_id" : ObjectId("60e860f64ac74e0ae3bd68da"),
     "code" : "PARAFINSEDUCAC",
     "name" : "Para fins educacionais",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -589,6 +610,7 @@ var natureJson = [
     "_id" : ObjectId("60e8618b4ac74e0ae3bd68dd"),
     "code" : "DEALUGDEIMOVEIS",
     "name" : "De aluguel de imóveis",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -603,6 +625,7 @@ var natureJson = [
     "_id" : ObjectId("60e861bb4ac74e0ae3bd68de"),
     "code" : "DEVENDADEIMOVEISNOPAIS",
     "name" : "De venda de imóveis no país",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -618,6 +641,7 @@ var natureJson = [
     "_id" : ObjectId("60e861dd4ac74e0ae3bd68df"),
     "code" : "DEVENDADEIMOVEISNOEXT",
     "name" : "De venda de imóveis no exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -632,6 +656,7 @@ var natureJson = [
     "_id" : ObjectId("60e859404ac74e0ae3bd68ca"),
     "code" : "ENVPARAPESSOAFISICA",
     "name" : "Enviar para uma pessoa física",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -646,6 +671,7 @@ var natureJson = [
     "_id" : ObjectId("60e859ea4ac74e0ae3bd68cc"),
     "code" : "PAGCUSTEDUCNOEXT",
     "name" : "Pagar custos com educação no exterior",
+    "iof" : 0.0011,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -703,6 +729,7 @@ var natureJson = [
     "_id" : ObjectId("60e858b14ac74e0ae3bd68c9"),
     "code" : "ENVMINHACORRETINVEST",
     "name" : "Envio de dinheiro para minha corretora de investimentos",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -730,6 +757,7 @@ var natureJson = [
     "_id" : ObjectId("61018bfe33f4e72ed0549a29"),
     "code" : "DIRAUTLICENCOPDISTPROGCOMP",
     "name" : "Direitos autorais - Licença para cópia e distribuição de programas de computador",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -743,6 +771,7 @@ var natureJson = [
     "_id" : ObjectId("6171c4d089494b096ec5078d"),
     "code" : "DEMURRAGEPAREXT",
     "name" : "Demurrage",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -829,6 +858,7 @@ var natureJson = [
     "_id" : ObjectId("60e860444ac74e0ae3bd68d7"),
     "code" : "DEVENDAACOES",
     "name" : "De venda de Ações",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -857,6 +887,7 @@ var natureJson = [
     "_id" : ObjectId("60e862034ac74e0ae3bd68e0"),
     "code" : "PORSERVICDESAUD",
     "name" : "Por serviços de saúde",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -871,6 +902,7 @@ var natureJson = [
     "_id" : ObjectId("60e862244ac74e0ae3bd68e1"),
     "code" : "DEDOACOES",
     "name" : "De doações",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -899,6 +931,7 @@ var natureJson = [
     "_id" : ObjectId("60ed9d16cad51116ed199d59"),
     "code" : "PAGSERVICOS",
     "name" : "Pagar serviços no exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -912,6 +945,7 @@ var natureJson = [
     "_id" : ObjectId("60ed9dcfcad51116ed199d5a"),
     "code" : "PAGCOMPRAEXT",
     "name" : "Pagar compra de imóvel no exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -926,6 +960,7 @@ var natureJson = [
     "_id" : ObjectId("61b38ee04680125bc6b692cd"),
     "code" : "ENVCORRETINTERN",
     "name" : "Enviar para uma corretora internacional",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -979,6 +1014,7 @@ var natureJson = [
     "_id" : ObjectId("62db065cdf056149e480220c"),
     "code" : "PAGREDUCDECAPITAL",
     "name" : "Aumento / Redução de capital",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -1033,6 +1069,7 @@ var natureJson = [
     "_id" : ObjectId("62db0684df056149e4802211"),
     "code" : "RECEBREDUCDECAPITAL",
     "name" : "Aumento / Redução de capital",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
@@ -1126,6 +1163,7 @@ var natureJson = [
     "_id" : ObjectId("60e85a8f4ac74e0ae3bd68d0"),
     "code" : "APORTEMPRESEXT",
     "name" : "Aporte de empresas no exterior",
+    "iof" : 0.0038,
     "rules" : {
         "iof" : NumberInt(0),
         "ir" : NumberInt(0),
